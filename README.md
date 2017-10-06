@@ -7,7 +7,7 @@ This project demonstrates knowledge in Javascript.
 
 Start the game:
 
-Play on GitHub.io: (Will include link once project submission is accepted, and I upload to github afterward)
+Play on GitHub.io: https://davidcarmel92.github.io/arcade-game-clone/
 
 How to Load the App:
 
