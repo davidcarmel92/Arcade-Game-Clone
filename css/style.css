@@ -1,0 +1,104 @@
+body {
+    text-align: center;
+}
+.container {
+  margin-bottom: -30px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#level {
+  margin-right: 250px;
+}
+.lives {
+}
+
+/*
+Styles for modals
+ */
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 255, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  position: relative;
+  background-color: #03AD0B;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: 20px;
+  width: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.modal-data {
+  text-align: center;
+}
+
+.play-again-button {
+  background: blue;
+  background-image: -webkit-linear-gradient(top, blue, white);
+  background-image: -moz-linear-gradient(top, blue, white);
+  background-image: -ms-linear-gradient(top, blue, white);
+  background-image: -o-linear-gradient(top, blue, white);
+  background-image: linear-gradient(to bottom, blue, white);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#input_button {
+  background: blue;
+  background-image: -webkit-linear-gradient(top, blue, white);
+  background-image: -moz-linear-gradient(top, blue, white);
+  background-image: -ms-linear-gradient(top, blue, white);
+  background-image: -o-linear-gradient(top, blue, white);
+  background-image: linear-gradient(to bottom, blue, white);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.congrats {
+  margin-bottom: -20px;
+}
+
+.list {
+  font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.list ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+
+}
+
+.list li {
+    padding: 10px 5px;
+}
